@@ -57,7 +57,7 @@ dispatch(signInFailure(error.message));
         </form>
         <div className='flex gap-2 mt-5'>
          <p>Don't Have an account?</p>
-          <Link to={"/sign-up"}>
+          <Link to={"/signup"}>
             <span className='text-blue-700'>Sign up</span>
           </Link> 
         </div>
